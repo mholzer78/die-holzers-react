@@ -1,0 +1,7 @@
+.myImage {
+    margin-left: 1rem;
+    max-width: 200px;
+    @media screen and (max-width: 799px) {
+        max-width: 150px;
+    }
+}

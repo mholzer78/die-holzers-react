@@ -1,0 +1,82 @@
+[
+	[
+		{
+			"company": "Herold Business Data",
+			"jobs": [
+				{
+					"title": "07/2018 to 03/2022",
+					"content": "Development-Team - as the only frontend-developer due to the departure of the last remaining"
+				},
+				{
+					"title": "06/2017 to 06/2018",
+					"content": "Content-Team - the Frontend-Team was cut short to one person - vacation replacement for the remaining frontend-developer"
+				},
+				{
+					"title": "06/2016 to 05/2017",
+					"content": "Frontend-Team - responsible for herold.at and some internal tools"
+				},
+				{
+					"title": "04/2011 to 05/2016",
+					"content": "IT Application Support"
+				}
+			]
+		},
+		{
+			"company": "UPC Telekabel",
+			"jobs": [
+				{
+					"title": "02/2005 to 03/2011",
+					"content": "3rd Level Helpdesk (Digital TV)"
+				},
+				{
+					"title": "02/2003 to 02/2005",
+					"content": "Internal IT-Support (focus on Digital TV)"
+				},
+				{
+					"title": "12/2000 to 02/2003",
+					"content": "1st Level Helpdesk (Internet / Digital TV)"
+				}
+			]
+		}
+	],
+	[
+		{
+			"company": "Herold Business Data",
+			"jobs": [
+				{
+					"title": "07/2018 bis 03/2022",
+					"content": "Entwickler-Team - als einziger Frontend-Entwickler da der zuletzt verbliebene gekündigt hat."
+				},
+				{
+					"title": "06/2017 bis 06/2018",
+					"content": "Content-Team (das Frontend-Team wurde auf eine Person reduziert) Urlaubsvertretung für den letzten verbliebenen Frontend-Programmierer"
+				},
+				{
+					"title": "06/2016 bis 05/2017",
+					"content": "Frontend-Team - verantwortlich für herold.at sowie ein paar intern verwendete Programme"
+				},
+				{
+					"title": "04/2011 bis 05/2016",
+					"content": "IT Application Support"
+				}
+			]
+		},
+		{
+			"company": "UPC Telekabel",
+			"jobs": [
+				{
+					"title": "02/2005 bis 03/2011",
+					"content": "3rd Level Helpdesk (Digital TV)"
+				},
+				{
+					"title": "02/2003 bis 02/2005",
+					"content": "Interner IT-Support (mit Fokus auf Digital TV)"
+				},
+				{
+					"title": "12/2000 bis 02/2003",
+					"content": "1st Level Helpdesk (Internet / Digital TV)"
+				}
+			]
+		}
+	]
+]

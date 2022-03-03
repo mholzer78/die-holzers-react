@@ -1,0 +1,60 @@
+[
+	{
+		"intro": [
+			"father, husband, frontend-developer",
+			"Being a developer is my job for more than 5 years, but it's my hobby for more than 25 years",
+			"Development (especially web-evelopment) been my favorite hobby for decades now. As fate would have it, I have found something different to do for a living that I could truly enjoy and kept doing it as a hobby. When fate struck again and I have gotten the offer to work as frontend-developer, I have taken my chances and did not regret it ever since."
+		],
+		"facts": [
+			{
+				"title": "Address",
+				"content": "Franz Berl Gasse 3c, A-2361 Laxenburg"
+			},
+			{
+				"title": "Birthdate",
+				"content": "20. Juli 1978"
+			},
+			{
+				"title": "Citizenship",
+				"content": "Austria"
+			},
+			{
+				"title": "Family status",
+				"content": "married, 1 child"
+			},
+			{
+				"title": "COVID19 status",
+				"content": "3rd vaccination received on 20th of Dec. 2021"
+			}
+		]
+	},
+	{
+		"intro": [
+			"Vater, Ehemann, Frontend-Entwickler",
+			"Frontend-Entwicklung ist seit über 5 Jahren mein Job aber bereits seit über 25 Jahren mein Hobby",
+			"Programmieren (Web-Entwicklung im speziellen) ist seit Jahrzehnten mein liebstes Hobby. Es hat sich so ergeben, dass ich viele Jahre in anderen Jobs in der IT tätig war, habe es aber immer als Hobby gemacht. Als ich aber die Chance bekommen habe mein Hobby zum Beruf zu machen habe ich diese ergriffen und habe es nie bereuht."
+		],
+		"facts": [
+			{
+				"title": "Adresse",
+				"content": "Franz Berl Gasse 3c, A-2361 Laxenburg"
+			},
+			{
+				"title": "Geburtsdatum",
+				"content": "20. Juli 1978"
+			},
+			{
+				"title": "Staatsbürgerschaft",
+				"content": "Österreich"
+			},
+			{
+				"title": "Familienstand",
+				"content": "Verheiratet, 1 Kind"
+			},
+			{
+				"title": "COVID19 Status",
+				"content": "dritte Impfung am 20. Dezember 2021 erhalten"
+			}
+		]
+	}
+]

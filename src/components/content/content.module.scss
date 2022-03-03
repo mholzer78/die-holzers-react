@@ -1,0 +1,35 @@
+@import '../../shared/variables';
+
+.content {
+	section {
+		display: flex;
+		align-items: center;
+		justify-content: center;
+        min-height: 100vh;
+		&:nth-child(odd) {
+			background-color: $bg2;
+		}
+	}
+}
+
+.inner {
+    @media screen and (min-width: 800px) {
+        margin: 1rem auto;
+        width: 50vw;
+        border-left: 1px solid white;
+    }
+    padding: 1rem;
+    > *:first-child {
+        margin-top: 0;
+    }
+    > div > * {
+        &:last-child {
+            margin-bottom: 0;
+        }
+    }
+}
+
+.flex {
+    display: flex;
+    align-items: center;
+}

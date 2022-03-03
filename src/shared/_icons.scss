@@ -1,0 +1,61 @@
+@font-face {
+	font-family: 'fontello';
+	src: url('../assets/icons/font/fontello.eot?45436927');
+	src: url('../assets/icons/font/fontello.eot?45436927#iefix')
+			format('embedded-opentype'),
+		url('../assets/icons/font/fontello.woff2?45436927') format('woff2'),
+		url('../assets/icons/font/fontello.woff?45436927') format('woff'),
+		url('../assets/icons/font/fontello.ttf?45436927') format('truetype'),
+		url('../assets/icons/font/fontello.svg?45436927#fontello')
+			format('svg');
+	font-weight: normal;
+	font-style: normal;
+}
+
+@mixin icon {
+	font-size: 2rem;
+	font-family: 'fontello';
+	font-style: normal;
+	font-weight: normal;
+	speak: never;
+    padding: 0 0.5rem;
+
+	display: inline-block;
+	text-decoration: inherit;
+	width: 1em;
+	text-align: center;
+	font-variant: normal;
+	text-transform: none;
+	line-height: 1em;
+	-webkit-font-smoothing: antialiased;
+	-moz-osx-font-smoothing: grayscale;
+}
+
+.iconMail:before {
+	@include icon;
+	content: '\e801';
+} /* '' */
+.iconGithub:before {
+	@include icon;
+	content: '\f09b';
+} /* '' */
+.iconLinkedin:before {
+	@include icon;
+	content: '\f0e1';
+} /* '' */
+.iconMobile:before {
+	@include icon;
+	content: '\f10b';
+} /* '' */
+.iconXing:before {
+	@include icon;
+	content: '\f168';
+} /* '' */
+.iconStackoverflow:before {
+	@include icon;
+	content: '\f16c';
+} /* '' */
+.iconWhatsapp:before {
+	@include icon;
+	content: '\f232';
+} /* '' */

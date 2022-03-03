@@ -1,0 +1,54 @@
+[
+	{
+		"title": "HTML / CSS / JavaScript",
+		"content": 100
+	},
+	{
+		"title": "XSLT / Freemarker",
+		"content": 100
+	},
+	{
+		"title": "Bootstrap / jQuery",
+		"content": 90
+	},
+	{
+		"title": "TypeScript",
+		"content": 80
+	},
+	{
+		"title": "ReactJS",
+		"content": 70
+	},
+	{
+		"title": "Angular",
+		"content": 70
+	},
+	{
+		"title": "VueJS",
+		"content": 10
+	},
+	{
+		"title": "SVN / GIT",
+		"content": 70
+	},
+	{
+		"title": "NPM",
+		"content": 80
+	},
+	{
+		"title": "NodeJS",
+		"content": 50
+	},
+	{
+		"title": "Webpack",
+		"content": 50
+	},
+	{
+		"title": "SCSS",
+		"content": 80
+	},
+	{
+		"title": "Linux",
+		"content": 60
+	}
+]

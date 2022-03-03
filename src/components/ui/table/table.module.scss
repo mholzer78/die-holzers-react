@@ -1,0 +1,75 @@
+@import '../../../shared/variables';
+
+.table,
+.tableLimit,
+.tableLimitMob,
+.tableOffLimit {
+	width: 100%;
+	border-collapse: collapse;
+	tr {
+		@media screen and (max-width: 799px) {
+			border-bottom: 1px solid $highlight;
+			td {
+				display: block;
+				width: 100%;
+				&:first-child {
+					padding-top: 0.5rem;
+				}
+				&:last-child {
+					padding-bottom: 0.5rem;
+				}
+			}
+		}
+		td {
+			@media screen and (min-width: 800px) {
+				padding: 0.5rem;
+				border-left: 1px solid $text;
+				border-right: 1px solid $text;
+				border-top: 1px solid $highlight;
+				border-bottom: 1px solid $highlight;
+				&:first-child {
+					border-left: 0;
+					padding-left: 0;
+				}
+				&:last-child {
+					border-right: 0;
+					padding-right: 0;
+				}
+				&:not(:last-child) {
+					white-space: nowrap;
+				}
+			}
+		}
+		&:first-child {
+			td {
+				border-top: 0;
+			}
+		}
+		&:last-child {
+			td {
+				border-bottom: 0;
+			}
+		}
+	}
+	&.tableLimit {
+		@media screen and (min-width: 800px) {
+			tr td:first-child {
+				width: 10em;
+			}
+		}
+	}
+	&.tableLimitMob {
+		@media screen and (max-width: 799px) {
+			td {
+				display: inline-block;
+				width: calc(100vw - 2rem - 2px);
+				white-space: nowrap;
+				overflow: hidden !important;
+				text-overflow: ellipsis;
+			}
+		}
+	}
+	&.tableOffLimit {
+		table-layout: fixed;
+	}
+}

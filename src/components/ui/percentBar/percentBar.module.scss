@@ -1,0 +1,71 @@
+@import '../../../shared/variables';
+
+@mixin fill {
+	display: flex;
+	span {
+		padding-right: 0.5rem;
+		border: 1px solid $text;
+		text-align: right;
+	}
+}
+
+.fill100 {
+	@include fill;
+	> span {
+		width: 100%;
+	}
+}
+.fill90 {
+	@include fill;
+	span {
+		width: 90%;
+	}
+}
+.fill80 {
+	@include fill;
+	span {
+		width: 80%;
+	}
+}
+.fill70 {
+	@include fill;
+	span {
+		width: 70%;
+	}
+}
+.fill60 {
+	@include fill;
+	span {
+		width: 60%;
+	}
+}
+.fill50 {
+	@include fill;
+	span {
+		width: 50%;
+	}
+}
+.fill40 {
+	@include fill;
+	span {
+		width: 40%;
+	}
+}
+.fill30 {
+	@include fill;
+	span {
+		width: 30%;
+	}
+}
+.fill20 {
+	@include fill;
+	span {
+		width: 20%;
+	}
+}
+.fill10 {
+	@include fill;
+	span {
+		width: 10%;
+	}
+}
